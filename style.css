@@ -62,9 +62,6 @@ h1,h2{
     font-weight: 400;
     color: hsl(24, 5%, 18%);
 }
-h1{
-    line-height: 100%;
-}
 h2{
     color: hsl(14, 45%, 36%);
 }
