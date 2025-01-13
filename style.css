@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Yong Serif";
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf')format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf')format('truetype');
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+body{
+    font-family: Outfit;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    padding: 30px;
+    width: 310px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+img{
+    width: 370px;
+    position: relative;
+    left: -30px;
+    top: -30px;
+}
+p.info{
+    margin-bottom: 30px;
+}
+.content1_1{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px 0px 20px 25px;
+}
+ul,ol{
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+li{
+    padding: 5px 0 5px 15px;
+}
+.hug{
+    margin: 0;
+}
+span{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+.strong{
+    font-weight: 700;
+}
+h1,h2{
+    font-family: Yong Serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+h3{ 
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 15px;
+}
+table{
+    height: 150px;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0px;
+}
+td{
+    width: 50%;
+    text-indent: 30px;
+}
+th{
+    text-indent: 5px;
+    color: hsl(14, 45%, 36%);
+}
+.border{
+    border-bottom: 1px solid black;
+    border-color: hsl(30, 10%, 34%);
+}
+@media  screen and (min-width: 1440px) {
+    .main{
+        width: 650px;
+        border-radius: 10px;
+    }
+    img{
+        position:static;
+        width: 650px;
+        border-radius: 10px;
+    }
+}
