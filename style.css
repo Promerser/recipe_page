@@ -40,8 +40,6 @@ p.info{
 }
 ul,ol{
     padding-left: 20px;
-    color: hsl(14, 45%, 36%);
-    font-weight: 700;
 }
 li{
     padding: 5px 0 5px 15px;
@@ -50,10 +48,6 @@ li{
     margin: 0;
 }
 span{
-    color: hsl(30, 10%, 34%);
-    font-weight: 400;
-}
-.strong{
     font-weight: 700;
 }
 h1,h2{
@@ -85,6 +79,15 @@ th{
 .border{
     border-bottom: 1px solid black;
     border-color: hsl(30, 10%, 34%);
+}
+.content1_1 li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.content2 li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.content3 li::marker{
+    color: hsl(14, 45%, 36%);
 }
 @media  screen and (min-width: 1440px) {
     .main{
